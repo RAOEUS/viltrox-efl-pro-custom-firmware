@@ -1,0 +1,12 @@
+# Viltrox's copyrighted firmware (original and patched) stays local; users build their own
+*.ecp
+# derived from the firmware: decompilation, RAM image, third-party documents
+re/all.c
+re/all.asm
+re/xrefs.txt
+re/ram_refs.txt
+re/ram_init_0x20000000.bin
+re/efdoc/
+build/
+__pycache__/
+.venv/
